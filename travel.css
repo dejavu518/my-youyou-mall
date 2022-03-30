@@ -1,0 +1,301 @@
+/* 首页 */
+/* 11.03 */
+body{background: #f3f3f3;}
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+.fr{float: right;}
+.fl{float: left;}
+.wrap{width: 1200px;margin: auto;}
+.logos{float: left;height: 72px;}
+.nav{height: 75px;background: #f3f3f3;margin:0 155px;float: left;}
+.enter{background: #f3f3f3;float: right;}
+.img_l,.img_r{height:72px;float: left;}
+.img_l{width: 48px;margin-right: 2px;padding: 6px;}
+.img_r{width: 58px;padding: 18px 3px;}
+.nav>li{width: 80px;height: 72px;float: left;font-size: 18px;margin-right: 23px;text-align: center;
+line-height: 72px;}
+.nav>li:hover{background: #5696FF;color:#f3f3f3;}
+.login{font-size: 18px;line-height: 72px;float: right;color: #000000;}
+.line{width: 2px;height: 15px;float: right;background: #999999;margin: 30px 12px;}
+.clear{clear:both}
+/* 11.08 */
+.banner{height: 600px;background: url(jpg/banner.jpg) no-repeat center;position: relative;}
+.circles{width: 52px;position: absolute;left: 50%;margin-left: -26px;bottom: 30px;}
+.cir_l,.cir_r{width: 16px;height: 16px;border-radius: 50%;border: 2px solid #f3f3f3;box-sizing: border-box;}
+.cir_l{background: #fcfcfd;float: left;}
+.engine{width: 350px;margin: auto;position: relative;margin-top: 70px;}
+.input{height:40px;width: 350px;border: solid #666666 1px;border-radius: 5px;font-size:16px;color:  #999999;}
+.icon{position: absolute;top:8px;right: 12px;}
+.area{width: 330px;margin: auto;margin-top: 60px;}
+.fatline{width: 80px;height: 7px;background: #666666;margin-top: 20px;}
+.title{font-size: 36px;color:#5696ff;float: left;margin-left: 10px;}
+.lead_in{text-align:center;font-size:  22px;color: #666666;margin-top: 25px;}
+
+/* 11.09 */
+input{outline: none;}
+.big{width: 1210px;margin: auto;margin-top: 58px;}
+.sichuan,.dali,.denmark,.japan,.italy,.france{float: left;height: 373px;width: 119px;margin-right: 2px;position: relative;}
+#vip{width: 596px;}
+.sichuan{background: url(jpg/sc.jpg) no-repeat center;}
+.dali{background: url(jpg/dali.jpg) no-repeat center;}
+.denmark{background: url(jpg/denmark.jpg) no-repeat center;position: relative;}
+.japan{background: url(jpg/Japan.jpg) no-repeat center;}
+.italy{background: url(jpg/Italy.jpg) no-repeat center;}
+.france{background: url(jpg/France.jpg) no-repeat center;}
+.shadow{background: rgba(51, 51,51,0.5);height: 373px;}
+.denmark img{position: absolute;left: 225px;bottom: 130px;}
+.big span{font-size: 28px;color: #f3f3f3;position: absolute;left: 30px;top: 70px;line-height: 28px;}
+
+/* 11.10 */
+.more_em{height: 55px;width:160px;font-size: 26px;text-align: center;border: solid #5696ff 2px;border-radius: 5px;
+line-height: 45px;color:#5696ff;margin: auto;margin-top: 73px;box-sizing: border-box;}
+.routine{width: 330px;margin: auto;margin-top: 110px;}
+/* 图片部分 */
+.ww{width: 1210px;margin: auto;margin-top: 52px;background: #f3f3f3;}
+.denmark_travel{width: 441px;height: 307px;background: url(jpg/denmark\ travel.jpg) no-repeat center;float: left;
+margin-right: 8px;}
+.vietnam{width: 402px;height: 267px;background: url(jpg/vietnam.jpg) no-repeat center;float: left;padding: 20px;}
+.tailand{width: 362px;height: 369px;background: url(jpg/tailand.jpg) no-repeat center;float: left;margin-right: 8px;}
+.malaysia{width: 521px;height: 369px;background: url(jpg/malaysia.jpg) no-repeat center;float: left;}
+.japan_travel{width: 300px;height: 472px;background: url(jpg/japan\ travel.jpg) no-repeat center;margin-bottom: 8px;}
+.india{width: 300px;height: 204px;background: url(jpg/india.jpg) no-repeat center;}
+.rou_l,.rou_r{float: left;margin-right: 8px;}
+.l_top{margin-bottom: 8px;}
+.ww p{font-size: 22px;color: #f3f3f3;position: absolute;left: 55px;top: 46px;}
+.l_top>div,.l_bottom>div,.rou_r>div{position: relative;}
+.loop{width: 402px;height: 268px;border: solid 5px #ffffff;box-sizing: border-box;}
+.whiteline{width: 90px;height: 5px;background: #ffffff;float: left;margin-top: 15px;}
+.price{font-size: 26px;color: #ffffff;float: left;margin-left: 22px;}
+.money{width: 315px;margin: auto;margin-top: 85px;}
+/* 旅游资讯 */
+.more_full{height: 55px;width:160px;font-size: 26px;text-align: center;border-radius: 5px;
+    line-height: 45px;color:#ffffff;background:#5696ff;margin: auto;margin-top: 70px;}
+.travel_news,.diary{width: 330px;margin: auto;margin-top: 107px;}
+/* 墨西哥 */
+.big_m{width: 1200px;margin: auto;margin-top: 227px;margin-bottom: 70px;}
+.mexico{border: solid 40px #f3f3f3;position: absolute;left:570px;bottom:395px;}
+.sea{width: 1200px;position: relative;}
+.me_bottom{margin-top: 50px;}
+.rule{margin-left: 122px;float: left;}
+.text{float: right;margin-top: -20px;}
+.m_line{width: 130px;height: 7px;background: #666666;margin-bottom: 30px;margin-left: 205px;}
+.rule p{font-size: 30px;line-height: 40px;text-align: right;}
+.text p{font-size: 24px;line-height: 50px;}
+.whole{width: 180px;height: 62px;border: solid #999999 3px;border-radius: 5px;box-sizing: border-box;
+margin-top:24px;font-size: 26px;text-align: center;line-height: 48px;}
+
+/* 新西兰 */
+.clothes{width: 1200px;margin: auto;}
+.newzealand{width: 578px;height:781px;background: url(jpg/new\ zealand.jpg) no-repeat center;}
+.newzealand img{width: 626px;margin-left: 485px;margin-top:65px;border: 45px solid #f3f3f3;}
+.n_text{float: right;width: 562px;font-size: 24px;line-height: 56px;margin-top: -150px;}
+/* 大理游记 */
+.wrap_dl{width: 1200px;margin: auto;margin-top:50px}
+.dali_pic{width: 748px;height:980px;background: url(jpg/dali\ river.jpg) no-repeat center;float: left;}
+.d_shadow{width: 402px;height:900px;background: rgba(51, 51,51,0.5);margin-left: 8px;margin-top: 7px;padding-top: 62px;padding-left: 35px;padding-right: 65px;}
+.wrap_text>p{font-size: 24px;line-height: 35px;color: #ffffff;}
+#good{color:#5696ff;margin-bottom: 77px;}
+.separate{width: 1px;height: 20px;background: #ffffff;float: left;margin-top: 7px;}
+.three>span{font-size:20px;float: left;color:#ffffff;margin:0 15px;line-height: 35px;}
+.article p{font-size: 18px;color: #ffffff;line-height: 48px;text-indent: 2em;}
+.seemore{width: 160px;height: 43px;border: solid #ffffff 2px;border-radius: 5px;text-align: center;color: #ffffff;font-size: 22px;padding-top: 17px;
+margin-top: 100px;}
+.white{width: 408px;height: 432px;background: #ffffff;box-shadow: #999999 0px 0px 50px 10px;margin: 2px;margin-bottom: 24px;padding-left: 35px;padding-top: 35px;}
+.small_pics{float: right;margin-top: 5px;}
+.sp_s1{width: 375px;height: 297px;background: url(jpg/tailand\ s.jpg) no-repeat center;}
+.sp_s2{width: 375px;height: 297px;background: url(jpg/mountain.jpg) no-repeat center;}
+.white span{font-size: 12px;color: #ffffff;display: block;background: #3c6cbc;width: 60px;float: left;margin-top: 13px;margin-left: 11px;text-align: center;}
+.white p{font-size: 12px;line-height: 20px;margin-right: 32px;}
+.s_all{;width: 68px;margin-left: 275px;margin-top: -22px;}
+a{font-size: 12px;color: #5696ff}
+/* 精选照片 */
+.wrap_last{width: 1181px;margin: auto;margin-top: 54px;background: #ffffff;padding-top: 28px;padding-left: 19px;height: 500px;
+    box-shadow: #999999 0px 0px 50px 10px;position: relative;}
+.nice_pic{font-size: 24px;color: #5696ff;}
+.four{margin-top: 28px;margin-bottom: 20px;}
+.four img{float: left;margin-right: 19px;}
+.names span{font-size: 18px;line-height: 35px;}
+.names p{font-size: 12px;}
+.names{width: 275px;float: left;margin-right: 19px;}
+.arrowline{width: 1142px;margin-left: 20px;position: absolute;top:218px;}
+.square1,.square2{width: 52px;height: 40px;background:#ffffff;float: left;text-align: center;padding-top: 12px;margin-left: -20px;}
+.foot{width:655px;margin: auto; height: 95px;margin-top: 65px;padding-top: 35px;background-color: #5696FF;
+color: #ffffff;line-height: 35px;}
+
+/* 登陆  注册 */
+.ocean{height: 620px;background: url(jpg/ocean.jpg) no-repeat center;padding-top: 20px;}
+.whitelogo{width: 93px;margin: auto;}
+.page{width: 342px;height: 340px;background: #ffffff;margin:auto;margin-top: 23px;border-radius: 5px;padding-top: 40px;padding-left: 38px;}
+input{border: solid #999999 1px;font-size: 14px;color: #999999;display: block;width: 302px;height: 34px;
+    margin-bottom: 20px;padding-top: 5px;border-radius: 5px;}
+.ocean span{font-size: 12px;color: #999999;}
+.p_top span{color: #5696ff;margin-left: 255px;display:block;margin-top: -15px;}
+.b_login{width: 302px;height: 40px;background: #5696ff;color: #ffffff;font-size: 18px;text-align: center;line-height: 40px;margin-top: 18px;
+border-radius: 5px;}
+.p_bottom{margin-top: 42px;}
+.s_icon img{margin-right: 57px;margin-top: 18px;}
+.tips{width: 160px;margin: auto;background:#025992;border-radius: 6px;color: #ffffff;line-height: 30px;margin-top: 17px;}
+.divide{width: 380px;height:1px;margin: auto;margin-top:-175px;background: #999999;}
+#p_r{height: 270px;}
+.pre{margin-left:72px;margin-top: -10px;}
+.pre span{font-size: 14px;}
+
+/* 地区版块 */
+/* 头部 */
+.black{width:1200px;height: 41px;background: #666666;margin: auto;padding-top: 18px;mar}
+.shortline{width: 1px;height: 20px;background: #999999;margin-right: 40px;margin-left: 40px;}
+.black_l div,.black_l img,.black_r div,.black_r img{float: left;}
+/* 葡萄牙 */
+.c_list{width: 160px;height: 545px;background: #666666;color: #ffffff;text-align: center;font-size: 24px;
+padding-top: 15px;}
+.countryline{width: 70px;height: 1px;background: #999999;margin: auto;margin-top: 20px;margin-bottom: 20px;}
+/* 热门推荐 */
+.hot{font-size: 24px;color: #333333;}
+.whitecoat{width: 1169px;height: 427px;background: #ffffff;border: 1px solid #999999;margin-top: 26px;padding-left: 31px;padding-top: 48px;}
+.flower{width: 164px;height: 232px;background: url(jpg/flower.jpg);}
+.swan{width: 164px;height: 232px;background: url(jpg/swan.jpg);}
+.baikal{width: 164px;height: 232px;background: url(jpg/baikal.jpg);}
+.teanau{width: 164px;height: 232px;background: url(jpg/teanau.jpg);}
+.fizz{width: 164px;height: 232px;background: url(jpg/fizz.jpg);}
+.flower,.swan,.baikal,.teanau,.fizz{float: left;border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;margin-right: 33px;
+padding-top: 26px;padding-left: 20px;color: #ffffff;font-size: 18px;font-family: Arial;line-height: 35px;}
+.cc{font-size: 20px;}
+.pic_name span{font-size: 20px;color: #5696ff;display: block;float: left;width: 201px;margin-right: 32px;margin-top: 19px;}
+.download{width: 200px;height: 40px;margin-right: 33px;background: #5696ff;color: #ffffff;text-align: center;font-size: 18px;
+float: left;border-radius: 5px;line-height: 35px;margin-top: 19px;}
+/* 全部地区指南 */
+.justnow p{font-size: 18px;color: #333333;margin-bottom: 18px;}
+.justnow{width: 360px;float: left;}
+.who span img{display: block;float: left ;line-height: 35px;}
+.who img{margin-top: 10px;float: left;}
+.who span{display:block;float: left;margin-top: 15px;margin-left: 5px;}
+.who{height: 48px;}
+.collect{width: 350px;height: 200px;background: url(jpg/collect.jpg) no-repeat center;margin-top: 43px;}
+.collect img{margin: auto;margin-top: 59px;}
+.guide>p{font-size: 24px;margin-bottom: 22px;}
+.filter span{font-size: 18px;color: #333333;float: left;}
+.g_line{width: 1px;height: 18px;background:#333333;float: left;margin: 2px 15px;}
+.twelve{float: left;font-size: 16px;color: #ffffff;width: 180px;margin-right: 28px;}
+.area1{width: 158px;height: 203px;background: url(jpg/area1.jpg);border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;
+padding-left: 8px;padding-top: 28px;}
+.area2{width: 158px;height: 203px;background: url(jpg/area2.jpg);border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;
+padding-left: 8px;padding-top: 28px;}
+.area3{width: 158px;height: 203px;background: url(jpg/area3.jpg);border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;
+    padding-left: 8px;padding-top: 28px;}
+.area4{width: 158px;height: 203px;background: url(jpg/area4.jpg);border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;
+    padding-left: 8px;padding-top: 28px;}
+.area5{width: 158px;height: 203px;background: url(jpg/area5.jpg);border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;
+    padding-left: 8px;padding-top: 28px;}
+.area6{width: 158px;height: 203px;background: url(jpg/area6.jpg);border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;
+    padding-left: 8px;padding-top: 28px;}
+.area7{width: 158px;height: 203px;background: url(jpg/area7.jpg);border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;
+    padding-left: 8px;padding-top: 28px;}
+.area8{width: 158px;height: 203px;background: url(jpg/area8.jpg);border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;
+    padding-left: 8px;padding-top: 28px;}
+.area9{width: 158px;height: 203px;background: url(jpg/area9.jpg);border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;
+    padding-left: 8px;padding-top: 28px;}
+.area10{width: 158px;height: 203px;background: url(jpg/area10.jpg);border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;
+    padding-left: 8px;padding-top: 28px;}
+.area11{width: 158px;height: 203px;background: url(jpg/area11.jpg);border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;
+    padding-left: 8px;padding-top: 28px;}
+.area12{width: 158px;height: 203px;background: url(jpg/area12.jpg);border: solid 8px #ffffff;box-shadow: #999999 0px 0px 5px 1px;
+    padding-left: 8px;padding-top: 28px;}
+.s_blue{font-size: 18px;color: #5696ff;margin-top: 16px;}
+.date{color: #666666;margin-top: 10px;margin-bottom: 24px;}
+.gallery1{margin-top: 23px;}
+.change{width: 818px;}
+.k{color:#5696ff;width: 197px;height: 39px;border: 1px solid #999999;text-align: center;padding-top: 18px;}
+.number span{font-size: 18.5px;color: #999999;margin-right: 34px;}
+.number{width: 410px;margin-left: 10px;padding-top: 20px;}
+
+/* 资讯板块 */
+/* 菜花版面 */
+.rape{width: 778px;height:350px;background: url(jpg/rape.jpg);position: relative;}
+.red{width: 13px;height: 13px;background: #fe5308;border-radius: 50%;float: left;}
+.notice p{font-size: 20px;color: #333333;float: left;margin-left: 20px;margin-top: -20px;}
+.news_3{width: 422px;height: 350px;background: #ffffff;}
+.notice{width: 362px;height: 81px;border-bottom: 0.5px solid #999999;padding-top: 35px;padding-left: 23px;
+padding-right: 37px;}
+.bubble{width: 75px;height: 49px;background: url(png/bubble.png)no-repeat center;font-size: 26px;color: #ffffff;
+text-align: center;margin-left: 25px;}
+.ffl{margin-top: 125px;margin-left: 330px;}
+.posi{position: absolute;right: 78px;bottom: 130px;}
+.news_ll{width: 905px;float: left;}
+.canada{width: 402px;height: 237px;background: url(jpg/canada.jpg);padding-top: 16px;padding-left: 18px;}
+.zealand{width: 402px;height: 237px;background: url(jpg/zealand.jpg);padding-top: 16px;padding-left: 18px;}
+.australia{width: 402px;height: 237px;background: url(jpg/australia.jpg);padding-top: 16px;padding-left: 18px;}
+.t_govern{width: 402px;height: 237px;background: url(jpg/t\ govern.jpg);padding-top: 16px;padding-left: 18px;}
+.map{width: 402px;height: 237px;background: url(jpg/map.jpg);padding-top: 16px;padding-left: 18px;}
+.die{width: 402px;height: 237px;background: url(jpg/die.jpg);padding-top: 16px;padding-left: 18px;}
+.calen{width: 60px;height: 50px;background: #5696ff;color: #ffffff;text-align: center;padding-top: 15px;}
+.t_2{font-size: 20px;color: #222222;margin-top: 23px;}
+.t_small{color: #5696ff;font-size: 16px;margin-top: 19px;}
+.between{color: #666666;margin-right: 33px;margin-left: 8px;}
+.verylong{font-size: 16px;color: #666666;margin-top: 34px;}
+.demo{width: 422px;margin-right:28px;float: left;}
+.number1{width: 467px;font-size: 18.5px;padding-top: 20px;margin-left: 10px;}
+.number1 span{font-size: 18.5px;color: #999999;margin-right: 34px;}
+.big_tt{font-size: 24px;color: #2e2e2e;}
+.deco{width: 55px;height: 2px;background: #5696ff;margin-top: 19px;margin-bottom: 26px;}
+.news_rr{float: left;width:280px;margin-left: 15px;}
+.d_t p{font-size: 14px;color: #222222;margin-left: 19px;margin-top: -4px;}
+.it img,.d_t{float: left;}
+.it{margin-bottom: 24px;}
+.same,.same1,.click{width: 141px;height: 29px;text-align: center;border: #999999 1px solid;float: left;
+    margin-bottom: 6px;margin-right: 4px;color: #a1a1a1;padding-top: 8px;}
+.click{width: 85px;}
+.same1{width: 123px;}
+
+/* 游记部分 */
+.arrs{width: 176px;height: 58px;border: 1px solid #999999;color: #5696ff;
+font-size: 26px;line-height: 48px;text-align: center;padding-left: 32px;margin-bottom: 44px;margin-left: 63px;}
+.arrs img{margin-top: 17px;margin-left: 15px;}
+.taker{width: 302px;height: 63px;background: #ffffff;border: solid 0.2px #d0cdcd;padding-top: 25px;padding-right: 25px;
+padding-left: 25px;}
+.p_b{font-size: 20px;color: #333333;margin-bottom: 12px;}
+.p_s{font-size: 12px;}
+.scenery{margin-bottom: 55px;}
+.nl_2{height: 977px;width:362px;border-top: 0.2px solid #d0cdcd;border-bottom:  0.2px solid #d0cdcd;padding-top: 55px;}
+.listt{height: 127px;border-bottom: 0.2px solid #d0cdcd;padding-top: 36px;width:362px ;}
+.about{font-size: 22px;color: #333333;margin-top: 42px;margin-bottom: 24px;}
+.knowmore{width: 123px;height: 50px;border: 0.2px #d0cdcd solid;text-align: center;line-height: 45px;margin-top: 28px;}
+.pandt{width: 772px;height: 730px;border: 0.2px solid #d0cdcd;margin-bottom: 71px;background: #ffffff;}
+.main{height: 108px;border-bottom: 0.2px solid #d0cdcd;}
+.heavy{font-size: 22px;color: #333333;margin-top: 30px;margin-left: 32px;}
+.little{font-size: 12px;color: #999999;}
+.esp{width: 590px;border-right: solid 0.2px #d0cdcd;height: 108px;}
+.exe{color: #333333;margin-top: 30px;}
+.rich{width: 696px;height: 561px;padding-top: 60px;padding-left: 38px;padding-right: 38px;}
+.continue{width: 110px;height: 50px;border: solid 0.2px #d0cdcd;text-align: center;
+font-size: 14px;color: #333333;line-height: 50px;}
+.icon_s{float: left;margin-left: 50px;}
+.symbol{margin-top: 20px;}
+.icon_s span{margin-left: 10px;}
+.number2 span{font-size: 18px;margin-right: 42px;}
+.number2{margin-top: 20px;margin-left: 30px;}
+
+/* 特惠部分 */
+.ticket_h{width: 1170px;height: 323px;background: url(jpg/ticket.jpg) no-repeat center;padding-right: 30px;padding-top: 27px;margin-bottom: 60px;
+margin-top: 57px;}
+.t_name{width: 270px;height: 80px;background: #5696ff;float: left;margin-top: 200px;}
+.good{font-size: 45px;color: #ffffff;margin-top: 8px;margin-left: 30px;}
+.great{font-size: 17px;color: #ffffff;margin-top: 15px;margin-left: 12px;}
+.city2,.aim{width: 140px;height: 30px;background: #ffffff;font-size: 14px;color: #333333;border-radius: 5px;text-align: center;line-height: 30px;
+margin-top: 50px;}
+.aim p{margin-left: -23px;}
+.blue_icon{width: 30px;height: 30px;background: #5696ff;text-align: center;border-radius: 0 5px 5px 0 ;margin-top: -30px;}
+.dis_l{width: 862px;float: left;}
+.sample img{margin-right: 23px;float: left;}
+.diff>span{width:55px;display: block;border-bottom: 0.5px solid #5696ff;font-size: 14px;color: #5696ff;}
+.attr{font-size: 22px;color: #333333;width: 513px;margin-top: 18px;margin-bottom: 22px;}
+.redtext{font-size: 36px;color: #eb4c4d;}
+.order{width: 139px;height: 48px;border: solid 0.5px #5696ff;text-align: center;font-size: 22px;color: #5696ff;line-height: 45px;
+position: absolute;right: 0;bottom: 0;}
+.sample{width: 862px;position: relative;margin-bottom: 99px;}
+.dis_r{width: 284px;float: right;}
+.sell_h{width: 282px;height: 50px;border: 0.5px solid #5696ff;text-align: center;color: #282828;
+line-height: 45px;margin-bottom: 18px;}
+.leader{height: 93px;border-bottom: 0.2px solid #d0cdcd;width: 282px;padding-top: 14px;}
+.leader img{margin-right: 20px;}
+.lastp{width: 170px;font-size: 13px;}
